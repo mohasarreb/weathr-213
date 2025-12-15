@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق الطقس</title>
+    <link rel="stylesheet" href="po.css">
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+<div class="site-background"></div>
+
+<div id="weatherBackground" class="weather-bg"></div>
+
+<header>
+    <h1>Weather App</h1>
+    <input type="text" autocomplete="off" class="input" placeholder="ابحث عن مدينة..." id="searchBox" >
+</header>
+
+
+<div class="bord ">
+
+  <div class="container">
+      <div class="cloud front">
+          <span class="left-front"></span>
+          <span class="right-front"></span>
+      </div>
+      <span class="sun sunshine"></span>
+      <span class="sun"></span>
+      <div class="cloud back">
+          <span class="left-back"></span>
+          <span class="right-back"></span>
+      </div>
+  </div>
+
+  <div class="card-header">
+      <span id="cityDisplay">اختر مدينة</span>
+      <span id="dateDisplay">—</span>
+  </div>
+
+  <span class="temp" id="tempDisplay">—°</span>
+
+  <div class="temp-scale">
+      <span>Celcius</span>
+  </div>
+
+</div>
+
+<section id="forecast" ></section>
+
+<div id="map"></div>
+
+<script src="po.js"></script>
+
+</body>
+</html>
