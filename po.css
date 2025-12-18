@@ -308,12 +308,13 @@ header {
 
 .footer-section h3 {
   margin-bottom: 15px;
-  color: #ffcc33;
+  color: black;
 }
 
 .footer-section p {
   line-height: 1.7;
   font-size: 14px;
+    color:black;
 }
 
 .footer-section ul {
@@ -324,10 +325,11 @@ header {
 .footer-section ul li {
   margin-bottom: 8px;
   font-size: 14px;
+    color:black;
 }
 
 .footer-section ul li a {
-  color: #fff;
+  color: black;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -344,4 +346,5 @@ header {
   font-size: 13px;
   opacity: 0.8;
 }
+
 
