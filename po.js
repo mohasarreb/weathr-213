@@ -130,5 +130,7 @@ async function getWeather(city) {
   
 
 }
+document.getElementById("year").textContent = new Date().getFullYear();
+
 
 
